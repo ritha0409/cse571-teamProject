@@ -220,45 +220,64 @@ def aStarSearch(problem, heuristic=nullHeuristic):
 					pacmanFringe.push((nextTotalCost,nextCost,nextState[0],currentpath),nextTotalCost)
 
 def bidirection(problem):
-	from util import Queue
-	q1 = Queue()
-	temp_q1 = []
-	q2 = Queue()
-	temp_q2 = []
-	explorednode1 = set()
-	explorednode2 = set()
-	startnode = problem.getStartState()
-	endnode = problem.goal
-	q1.push((startnode,[]))
-	q2.push((endnode, []))
-	while q1.isEmpty() is not True and q2.isEmpty() is not True:
-		if q1.isEmpty() is not True:
-			currentnode, direction = q1.pop()
-			if currentnode not in explorednode1:
-				explorednode1.add(currentnode)
-				if problem.isGoalState(currentnode) or (currentnode in temp_q2):
-					while q2.isEmpty() == False:
-						node, direc = q2.pop()
-						if node == currentnode:
-							solution = direction + direc.reverse()
-							return solution
-				for(successor, action, stepCost) in problem.getSuccessors(currentnode):
-					q1.push((successor, direction + [action]))
-					temp_q1.append(successor)
-		if q2.isEmpty() is not True:
-			currentnode, direction = q2.pop()
-			if currentnode not in explorednode2:
-				explorednode2.add(currentnode)
-				if currentnode in temp_q1:
-					while q1.isEmpty() == False:
-						node, direc = q1.pop()
-						if node == currentnode:
-							direction.reverse()
-							solution = direc + ulta(direction)
-							return solution
-				for(successor, action, stepCost) in problem.getSuccessors(currentnode):
-					q2.push((successor, direction + [action]))
-					temp_q2.append(successor)
+    q1 = Queue()
+    temp_q1 = []
+    q2 = Queue()
+    temp_q2 = []
+    explorednode1 = set()
+    explorednode2 = set()
+    startnode = problem.getStartState()
+    endnode = problem.goal
+    q1.push((startnode,[]))
+    q2.push((endnode, []))
+    while q1.isEmpty() is not True and q2.isEmpty() is not True:
+    	if q1.isEmpty() is not True:
+        	currentnode, direction = q1.pop()
+            if currentnode not in explorednode1:
+            	explorednode1.add(currentnode)
+                if problem.isGoalState(currentnode) or (currentnode in temp_q2):
+                	while q2.isEmpty() == False:
+                        node, direc = q2.pop()
+                        if node == currentnode:
+                            solution = direction + direc.reverse()
+                            return solution
+                for(successor, action, stepCost) in problem.getSuccessors(currentnode):
+                    q1.push((successor, direction + [action]))
+                    temp_q1.append(successor)
+        if q2.isEmpty() is not True:
+        	currentnode, direction = q2.pop()
+            if currentnode not in explorednode2:
+            	explorednode2.add(currentnode)
+                if currentnode in temp_q1:
+                	while q1.isEmpty() == False:
+                    	node, direc = q1.pop()
+                        if node == currentnode:
+                            direction.reverse()
+                            solution = direc + ulta(direction)
+                            return solution
+                for(successor, action, stepCost) in problem.getSuccessors(currentnode):
+                    q2.push((successor, direction + [action]))
+                    temp_q2.append(successor)
+                    
+def ulta(direction):
+    '''
+    It reverses the path from the goal to the point where the two path meets.
+    '''
+    j = []
+    for i in direction:
+    	# Convert NORTH to SOUTH
+        if i == 'North':
+            j.append('South')
+        # Convert SOUTH to NORTH
+        elif i == 'South':
+            j.append('North')
+        # Convert EAST to WEST
+        elif i== 'East':
+            j.append('West')
+        # Convert WEST to EAST
+        else:
+            j.append('East')
+    return j
 
 # Abbreviations
 bfs = breadthFirstSearch

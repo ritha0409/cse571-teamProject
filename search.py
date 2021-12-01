@@ -258,6 +258,26 @@ def bidirection(problem):
                 for(successor, action, stepCost) in problem.getSuccessors(currentnode):
                     q2.push((successor, direction + [action]))
                     temp_q2.append(successor)
+                    
+def ulta(direction):
+    '''
+    It reverses the path from the goal to the point where the two path meets.
+    '''
+    j = []
+    for i in direction:
+    	# Convert NORTH to SOUTH
+        if i == 'North':
+            j.append('South')
+        # Convert SOUTH to NORTH
+        elif i == 'South':
+            j.append('North')
+        # Convert EAST to WEST
+        elif i== 'East':
+            j.append('West')
+        # Convert WEST to EAST
+        else:
+            j.append('East')
+    return j
 
 # Abbreviations
 bfs = breadthFirstSearch

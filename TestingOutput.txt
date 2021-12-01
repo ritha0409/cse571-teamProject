@@ -1,0 +1,39 @@
+mediumMaze
+Function: bfs	Path Cost: 68	Time Taken: 0.0019927024841308594	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0
+Function: dfs	Path Cost: 130	Time Taken: 0.0009963512420654297	Nodes Expanded: 146	Average Score: 380.0	Win Rate: 1.0
+Function: ucs	Path Cost: 68	Time Taken: 0.0029897689819335938	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 68	Time Taken: 0.001992940902709961	Nodes Expanded: 221	Average Score: 442.0	Win Rate: 1.0*
+bigMaze
+Function: bfs	Path Cost: 210	Time Taken: 0.008969545364379883	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0
+Function: dfs	Path Cost: 210	Time Taken: 0.003987550735473633	Nodes Expanded: 390	Average Score: 300.0	Win Rate: 1.0
+Function: ucs	Path Cost: 210	Time Taken: 0.010962724685668945	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 210	Time Taken: 0.008970022201538086	Nodes Expanded: 549	Average Score: 300.0	Win Rate: 1.0*
+contoursMaze
+Function: bfs	Path Cost: 13	Time Taken: 0.0019910335540771484	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0
+Function: dfs	Path Cost: 85	Time Taken: 0.0009965896606445312	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0
+Function: ucs	Path Cost: 13	Time Taken: 0.0019927024841308594	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 13	Time Taken: 0.0009965896606445312	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
+openMaze
+Function: bfs	Path Cost: 54	Time Taken: 0.015946626663208008	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0
+Function: dfs	Path Cost: 298	Time Taken: 0.019931554794311523	Nodes Expanded: 806	Average Score: 212.0	Win Rate: 1.0
+Function: ucs	Path Cost: 54	Time Taken: 0.028908967971801758	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 54	Time Taken: 0.014953851699829102	Nodes Expanded: 535	Average Score: 456.0	Win Rate: 1.0*
+smallMaze
+Function: bfs	Path Cost: 19	Time Taken: 0.0	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0
+Function: dfs	Path Cost: 49	Time Taken: 0.0010552406311035156	Nodes Expanded: 59	Average Score: 461.0	Win Rate: 1.0
+Function: ucs	Path Cost: 19	Time Taken: 0.001068115234375	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 19	Time Taken: 0.0	Nodes Expanded: 53	Average Score: 491.0	Win Rate: 1.0*
+testMaze
+Function: bfs	Path Cost: 7	Time Taken: 0.0	Nodes Expanded: 7	Average Score: 503.0	Win Rate: 1.0
+Function: dfs	Path Cost: 7	Time Taken: 0.0	Nodes Expanded: 7	Average Score: 503.0	Win Rate: 1.0
+Function: ucs	Path Cost: 7	Time Taken: 0.0	Nodes Expanded: 7	Average Score: 503.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 7	Time Taken: 0.0	Nodes Expanded: 7	Average Score: 503.0	Win Rate: 1.0*
+tinyMaze
+Function: bfs	Path Cost: 8	Time Taken: 0.00029850006103515625	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0
+Function: dfs	Path Cost: 10	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 500.0	Win Rate: 1.0
+Function: ucs	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0
+*Function: astar,heuristic=manhattanHeuristic	Path Cost: 8	Time Taken: 0.0009968280792236328	Nodes Expanded: 14	Average Score: 502.0	Win Rate: 1.0*
+tinyCorners
+*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 28	Time Taken: 0.0039865970611572266	Nodes Expanded: 217	Average Score: 512.0	Win Rate: 1.0*
+mediumCorners
+*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 106	Time Taken: 0.035884857177734375	Nodes Expanded: 901	Average Score: 434.0	Win Rate: 1.0*

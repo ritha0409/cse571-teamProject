@@ -38,6 +38,14 @@ class Layout:
         self.totalFood = len(self.food.asList())
         # self.initializeVisibilityMatrix()
 
+    def getCapsules(self):
+
+        for i in range(len(self.layoutText)):
+            for j in range(len(self.layoutText[i])):
+                if self.layoutText[i][j]==".":
+                    return (len(self.layoutText)- i-1,j)
+
+
     def getNumGhosts(self):
         return self.numGhosts
 

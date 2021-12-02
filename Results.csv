@@ -1,192 +1,110 @@
 Testing
-Layout,mediumMaze,function,bfs
+Layout,mediumMaze,function,"bfs,prob=FoodSearchProblem"
 Path Cost,68
-Time Taken,0.0019927024841308594
+Time Taken,0.015993356704711914
 Nodes Expanded,269
 Average Score,442.0
 Win Rate,1.0
-Layout,mediumMaze,function,dfs
+Layout,mediumMaze,function,"dfs,prob=FoodSearchProblem"
 Path Cost,130
-Time Taken,0.0009963512420654297
+Time Taken,0.007993459701538086
 Nodes Expanded,146
 Average Score,380.0
 Win Rate,1.0
-Layout,mediumMaze,function,ucs
+Layout,mediumMaze,function,"ucs,prob=FoodSearchProblem"
 Path Cost,68
-Time Taken,0.0029897689819335938
+Time Taken,0.02398848533630371
 Nodes Expanded,269
 Average Score,442.0
 Win Rate,1.0
-Layout,mediumMaze,function,"astar,heuristic=manhattanHeuristic"
+Layout,mediumMaze,function,"astar,prob=FoodSearchProblem,heuristic=foodHeuristic"
 Path Cost,68
-Time Taken,0.001992940902709961
-Nodes Expanded,221
+Time Taken,0.12079977989196777
+Nodes Expanded,68
 Average Score,442.0
 Win Rate,1.0
-Layout,bigMaze,function,bfs
+Layout,mediumMaze,function,"bi,prob=FoodSearchProblem,heuristic=foodHeuristic"
+Path Cost,68
+Time Taken,0.2994682788848877
+Nodes Expanded,68
+Average Score,442.0
+Win Rate,1.0
+Layout,bigMaze,function,"bfs,prob=FoodSearchProblem"
 Path Cost,210
-Time Taken,0.008969545364379883
+Time Taken,0.08375382423400879
 Nodes Expanded,620
 Average Score,300.0
 Win Rate,1.0
-Layout,bigMaze,function,dfs
+Layout,bigMaze,function,"dfs,prob=FoodSearchProblem"
 Path Cost,210
-Time Taken,0.003987550735473633
+Time Taken,0.04921913146972656
 Nodes Expanded,390
 Average Score,300.0
 Win Rate,1.0
-Layout,bigMaze,function,ucs
+Layout,bigMaze,function,"ucs,prob=FoodSearchProblem"
 Path Cost,210
-Time Taken,0.010962724685668945
+Time Taken,0.08917427062988281
 Nodes Expanded,620
 Average Score,300.0
 Win Rate,1.0
-Layout,bigMaze,function,"astar,heuristic=manhattanHeuristic"
+Layout,bigMaze,function,"astar,prob=FoodSearchProblem,heuristic=foodHeuristic"
 Path Cost,210
-Time Taken,0.008970022201538086
-Nodes Expanded,549
+Time Taken,1.758699893951416
+Nodes Expanded,210
 Average Score,300.0
 Win Rate,1.0
-Layout,contoursMaze,function,bfs
+Layout,bigMaze,function,"bi,prob=FoodSearchProblem,heuristic=foodHeuristic"
+Path Cost,210
+Time Taken,5.444972515106201
+Nodes Expanded,210
+Average Score,300.0
+Win Rate,1.0
+Layout,contoursMaze,function,"bfs,prob=FoodSearchProblem"
 Path Cost,13
-Time Taken,0.0019910335540771484
+Time Taken,0.033873558044433594
 Nodes Expanded,170
 Average Score,497.0
 Win Rate,1.0
-Layout,contoursMaze,function,dfs
+Layout,contoursMaze,function,"dfs,prob=FoodSearchProblem"
 Path Cost,85
-Time Taken,0.0009965896606445312
+Time Taken,0.012174367904663086
 Nodes Expanded,85
 Average Score,425.0
 Win Rate,1.0
-Layout,contoursMaze,function,ucs
+Layout,contoursMaze,function,"ucs,prob=FoodSearchProblem"
 Path Cost,13
-Time Taken,0.0019927024841308594
+Time Taken,0.03199577331542969
 Nodes Expanded,170
 Average Score,497.0
 Win Rate,1.0
-Layout,contoursMaze,function,"astar,heuristic=manhattanHeuristic"
+Layout,contoursMaze,function,"astar,prob=FoodSearchProblem,heuristic=foodHeuristic"
 Path Cost,13
-Time Taken,0.0009965896606445312
+Time Taken,0.2163410186767578
 Nodes Expanded,49
 Average Score,497.0
 Win Rate,1.0
-Layout,openMaze,function,bfs
+Layout,contoursMaze,function,"bi,prob=FoodSearchProblem,heuristic=foodHeuristic"
+Path Cost,13
+Time Taken,0.19066667556762695
+Nodes Expanded,24
+Average Score,497.0
+Win Rate,1.0
+Layout,openMaze,function,"bfs,prob=FoodSearchProblem"
 Path Cost,54
-Time Taken,0.015946626663208008
+Time Taken,0.3883993625640869
 Nodes Expanded,682
 Average Score,456.0
 Win Rate,1.0
-Layout,openMaze,function,dfs
+Layout,openMaze,function,"dfs,prob=FoodSearchProblem"
 Path Cost,298
-Time Taken,0.019931554794311523
+Time Taken,0.43102097511291504
 Nodes Expanded,806
 Average Score,212.0
 Win Rate,1.0
-Layout,openMaze,function,ucs
+Layout,openMaze,function,"ucs,prob=FoodSearchProblem"
 Path Cost,54
-Time Taken,0.028908967971801758
+Time Taken,0.3647184371948242
 Nodes Expanded,682
 Average Score,456.0
 Win Rate,1.0
-Layout,openMaze,function,"astar,heuristic=manhattanHeuristic"
-Path Cost,54
-Time Taken,0.014953851699829102
-Nodes Expanded,535
-Average Score,456.0
-Win Rate,1.0
-Layout,smallMaze,function,bfs
-Path Cost,19
-Time Taken,0.0
-Nodes Expanded,92
-Average Score,491.0
-Win Rate,1.0
-Layout,smallMaze,function,dfs
-Path Cost,49
-Time Taken,0.0010552406311035156
-Nodes Expanded,59
-Average Score,461.0
-Win Rate,1.0
-Layout,smallMaze,function,ucs
-Path Cost,19
-Time Taken,0.001068115234375
-Nodes Expanded,92
-Average Score,491.0
-Win Rate,1.0
-Layout,smallMaze,function,"astar,heuristic=manhattanHeuristic"
-Path Cost,19
-Time Taken,0.0
-Nodes Expanded,53
-Average Score,491.0
-Win Rate,1.0
-Layout,testMaze,function,bfs
-Path Cost,7
-Time Taken,0.0
-Nodes Expanded,7
-Average Score,503.0
-Win Rate,1.0
-Layout,testMaze,function,dfs
-Path Cost,7
-Time Taken,0.0
-Nodes Expanded,7
-Average Score,503.0
-Win Rate,1.0
-Layout,testMaze,function,ucs
-Path Cost,7
-Time Taken,0.0
-Nodes Expanded,7
-Average Score,503.0
-Win Rate,1.0
-Layout,testMaze,function,"astar,heuristic=manhattanHeuristic"
-Path Cost,7
-Time Taken,0.0
-Nodes Expanded,7
-Average Score,503.0
-Win Rate,1.0
-Layout,tinyMaze,function,bfs
-Path Cost,8
-Time Taken,0.00029850006103515625
-Nodes Expanded,15
-Average Score,502.0
-Win Rate,1.0
-Layout,tinyMaze,function,dfs
-Path Cost,10
-Time Taken,0.0
-Nodes Expanded,15
-Average Score,500.0
-Win Rate,1.0
-Layout,tinyMaze,function,ucs
-Path Cost,8
-Time Taken,0.0
-Nodes Expanded,15
-Average Score,502.0
-Win Rate,1.0
-Layout,tinyMaze,function,"astar,heuristic=manhattanHeuristic"
-Path Cost,8
-Time Taken,0.0009968280792236328
-Nodes Expanded,14
-Average Score,502.0
-Win Rate,1.0
-Layout,tinyCorners,function,"astar,prob=CornersProblem,heuristic=cornersHeuristic"
-Path Cost,28
-Time Taken,0.0039865970611572266
-Nodes Expanded,217
-Average Score,512.0
-Win Rate,1.0
-Layout,mediumCorners,function,"astar,prob=CornersProblem,heuristic=cornersHeuristic"
-Path Cost,106
-Time Taken,0.035884857177734375
-Nodes Expanded,901
-Average Score,434.0
-Win Rate,1.0
-Layout,bigCorners,function,"astar,prob=CornersProblem,heuristic=cornersHeuristic"
-Path Cost,162
-Time Taken,0.13225293159484863
-Nodes Expanded,1725
-Average Score,378.0
-Win Rate,1.0
-Path Cost,68
-Time Taken,0.008285760879516602
-Nodes Expanded,269
-Average Score,442.0
-Win Rate,1.0
+Layout,openMaze,function,"astar,prob=FoodSearchProblem,heuristic=foodHeuristic"

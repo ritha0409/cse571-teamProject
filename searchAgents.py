@@ -259,11 +259,27 @@ class StayWestSearchAgent(SearchAgent):
 		costFn = lambda pos: 2 ** pos[0]
 		self.searchType = lambda state: PositionSearchProblem(state, costFn)
 
-def manhattanHeuristic(position, problem, info={},dif=False):
+def manhattanHeuristic(state, problem, info={},back=False):
 	"The Manhattan distance heuristic for a PositionSearchProblem"
+	position = state[0]
 	xy1 = position
-	xy2 = foodGrid.asList()[0]
-	return abs(xy1[0] - xy2[0]) + abs(xy1[1] - xy2[1])
+	"*** YOUR CODE HERE ***"
+	if not back:
+		foodGrid = problem.start[1]
+
+		food_list = foodGrid.asList()
+		position = state[0]
+		x,y = position
+		value = 0
+		for coordinate in food_list:
+			a,b = coordinate
+			#value = max(value,abs(x - a) + abs(y - b))
+			#The maze distance is the true distance. Hence you will have a really high value as compared to ecludian or manhattan. 
+		value = max(value, mazeDistance(position, coordinate, problem.startingGameState))
+	else:
+		a,b = problem.getStartState()[0]
+	return abs(xy1[0] - a) + abs(xy1[1] - b)
+
 
 def euclideanHeuristic(position, problem, info={}):
 	"The Euclidean distance heuristic for a PositionSearchProblem"

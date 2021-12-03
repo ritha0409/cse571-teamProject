@@ -1,36 +1,114 @@
 mediumMaze
-*Function: bfs,prob=FoodSearchProblem	Path Cost: 68	Time Taken: 0.03165555000305176	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
-*Function: dfs,prob=FoodSearchProblem	Path Cost: 130	Time Taken: 0.016062021255493164	Nodes Expanded: 146	Average Score: 380.0	Win Rate: 1.0*
-*Function: ucs,prob=FoodSearchProblem	Path Cost: 68	Time Taken: 0.03284907341003418	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
-*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 68	Time Taken: 0.1557307243347168	Nodes Expanded: 68	Average Score: 442.0	Win Rate: 1.0*
-*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 68	Time Taken: 0.30201196670532227	Nodes Expanded: 68	Average Score: 442.0	Win Rate: 1.0*
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 68	Time Taken: 0.020931720733642578	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 130	Time Taken: 0.01123499870300293	Nodes Expanded: 146	Average Score: 380.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 68	Time Taken: 0.022006750106811523	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 68	Time Taken: 0.11755013465881348	Nodes Expanded: 68	Average Score: 442.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 68	Time Taken: 0.566709041595459	Nodes Expanded: 68	Average Score: 442.0	Win Rate: 1.0*
 bigMaze
-*Function: bfs,prob=FoodSearchProblem	Path Cost: 210	Time Taken: 0.08209562301635742	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
-*Function: dfs,prob=FoodSearchProblem	Path Cost: 210	Time Taken: 0.040032148361206055	Nodes Expanded: 390	Average Score: 300.0	Win Rate: 1.0*
-*Function: ucs,prob=FoodSearchProblem	Path Cost: 210	Time Taken: 0.08796167373657227	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
-*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 210	Time Taken: 1.7192680835723877	Nodes Expanded: 210	Average Score: 300.0	Win Rate: 1.0*
-*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 210	Time Taken: 4.605222225189209	Nodes Expanded: 210	Average Score: 300.0	Win Rate: 1.0*
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 210	Time Taken: 0.07515621185302734	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 210	Time Taken: 0.04485154151916504	Nodes Expanded: 390	Average Score: 300.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 210	Time Taken: 0.0895075798034668	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 210	Time Taken: 1.773054838180542	Nodes Expanded: 210	Average Score: 300.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 210	Time Taken: 8.493851661682129	Nodes Expanded: 210	Average Score: 300.0	Win Rate: 1.0*
 contoursMaze
-*Function: bfs,prob=FoodSearchProblem	Path Cost: 13	Time Taken: 0.015929698944091797	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
-*Function: dfs,prob=FoodSearchProblem	Path Cost: 85	Time Taken: 0.00799107551574707	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0*
-*Function: ucs,prob=FoodSearchProblem	Path Cost: 13	Time Taken: 0.015993833541870117	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
-*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 13	Time Taken: 0.07267355918884277	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
-*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 13	Time Taken: 0.052695274353027344	Nodes Expanded: 24	Average Score: 497.0	Win Rate: 1.0*
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 13	Time Taken: 0.01185297966003418	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 85	Time Taken: 0.004984617233276367	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 13	Time Taken: 0.011884927749633789	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 13	Time Taken: 0.0692586898803711	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 13	Time Taken: 0.20955920219421387	Nodes Expanded: 36	Average Score: 497.0	Win Rate: 1.0*
 openMaze
-*Function: bfs,prob=FoodSearchProblem	Path Cost: 54	Time Taken: 0.12821197509765625	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
-*Function: dfs,prob=FoodSearchProblem	Path Cost: 298	Time Taken: 0.13408708572387695	Nodes Expanded: 806	Average Score: 212.0	Win Rate: 1.0*
-*Function: ucs,prob=FoodSearchProblem	Path Cost: 54	Time Taken: 0.12125897407531738	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
-*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 54	Time Taken: 5.745453596115112	Nodes Expanded: 273	Average Score: 456.0	Win Rate: 1.0*
-*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 54	Time Taken: 3.6739048957824707	Nodes Expanded: 106	Average Score: 456.0	Win Rate: 1.0*
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 54	Time Taken: 0.12159204483032227	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 298	Time Taken: 0.14478302001953125	Nodes Expanded: 806	Average Score: 212.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 54	Time Taken: 0.1213219165802002	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 54	Time Taken: 5.850845098495483	Nodes Expanded: 273	Average Score: 456.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 54	Time Taken: 29.54257559776306	Nodes Expanded: 248	Average Score: 456.0	Win Rate: 1.0*
 smallMaze
-*Function: bfs,prob=FoodSearchProblem	Path Cost: 19	Time Taken: 0.00799250602722168	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
-*Function: dfs,prob=FoodSearchProblem	Path Cost: 49	Time Taken: 0.0	Nodes Expanded: 59	Average Score: 461.0	Win Rate: 1.0*
-*Function: ucs,prob=FoodSearchProblem	Path Cost: 19	Time Taken: 0.007927179336547852	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
-*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 19	Time Taken: 0.00807642936706543	Nodes Expanded: 19	Average Score: 491.0	Win Rate: 1.0*
-*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 19	Time Taken: 0.015989065170288086	Nodes Expanded: 19	Average Score: 491.0	Win Rate: 1.0*
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 19	Time Taken: 0.0032477378845214844	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 49	Time Taken: 0.002002716064453125	Nodes Expanded: 59	Average Score: 461.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 19	Time Taken: 0.003985881805419922	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 19	Time Taken: 0.010152816772460938	Nodes Expanded: 19	Average Score: 491.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 19	Time Taken: 0.030036449432373047	Nodes Expanded: 19	Average Score: 491.0	Win Rate: 1.0*
 tinyMaze
-*Function: bfs,prob=FoodSearchProblem	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0*
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 8	Time Taken: 0.00102996826171875	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0*
 *Function: dfs,prob=FoodSearchProblem	Path Cost: 10	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 500.0	Win Rate: 1.0*
 *Function: ucs,prob=FoodSearchProblem	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0*
-*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 8	Average Score: 502.0	Win Rate: 1.0*
-*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 8	Average Score: 502.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 8	Time Taken: 0.0009980201721191406	Nodes Expanded: 8	Average Score: 502.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 8	Time Taken: 0.0030007362365722656	Nodes Expanded: 8	Average Score: 502.0	Win Rate: 1.0*
+bigMaze1
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 214	Time Taken: 0.08286285400390625	Nodes Expanded: 633	Average Score: 296.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 214	Time Taken: 0.057333946228027344	Nodes Expanded: 382	Average Score: 296.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 214	Time Taken: 0.08773207664489746	Nodes Expanded: 633	Average Score: 296.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 214	Time Taken: 1.9344213008880615	Nodes Expanded: 214	Average Score: 296.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 214	Time Taken: 8.985656261444092	Nodes Expanded: 214	Average Score: 296.0	Win Rate: 1.0*
+bigMaze2
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 194	Time Taken: 0.08213114738464355	Nodes Expanded: 551	Average Score: 316.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 194	Time Taken: 0.05629587173461914	Nodes Expanded: 434	Average Score: 316.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 194	Time Taken: 0.0737307071685791	Nodes Expanded: 551	Average Score: 316.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 194	Time Taken: 1.4149856567382812	Nodes Expanded: 194	Average Score: 316.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 194	Time Taken: 7.312108039855957	Nodes Expanded: 194	Average Score: 316.0	Win Rate: 1.0*
+bigMaze3
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 26	Time Taken: 0.009956836700439453	Nodes Expanded: 89	Average Score: 484.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 26	Time Taken: 0.08812737464904785	Nodes Expanded: 610	Average Score: 484.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 26	Time Taken: 0.011070013046264648	Nodes Expanded: 89	Average Score: 484.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 26	Time Taken: 0.024939537048339844	Nodes Expanded: 26	Average Score: 484.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 26	Time Taken: 0.08193397521972656	Nodes Expanded: 26	Average Score: 484.0	Win Rate: 1.0*
+bigMaze4
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 141	Time Taken: 0.06179380416870117	Nodes Expanded: 517	Average Score: 369.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 141	Time Taken: 0.04285931587219238	Nodes Expanded: 358	Average Score: 369.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 141	Time Taken: 0.0663459300994873	Nodes Expanded: 517	Average Score: 369.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 141	Time Taken: 0.8115501403808594	Nodes Expanded: 141	Average Score: 369.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 141	Time Taken: 3.972214698791504	Nodes Expanded: 141	Average Score: 369.0	Win Rate: 1.0*
+bigMaze5
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 150	Time Taken: 0.059870243072509766	Nodes Expanded: 476	Average Score: 360.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 150	Time Taken: 0.05185651779174805	Nodes Expanded: 421	Average Score: 360.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 150	Time Taken: 0.06209421157836914	Nodes Expanded: 476	Average Score: 360.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 150	Time Taken: 0.8623056411743164	Nodes Expanded: 150	Average Score: 360.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 150	Time Taken: 4.740862131118774	Nodes Expanded: 150	Average Score: 360.0	Win Rate: 1.0*
+bigMaze6
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 20	Time Taken: 0.007977485656738281	Nodes Expanded: 71	Average Score: 490.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 20	Time Taken: 0.0029892921447753906	Nodes Expanded: 26	Average Score: 490.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 20	Time Taken: 0.00800466537475586	Nodes Expanded: 71	Average Score: 490.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 20	Time Taken: 0.013934850692749023	Nodes Expanded: 20	Average Score: 490.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 20	Time Taken: 0.05244016647338867	Nodes Expanded: 20	Average Score: 490.0	Win Rate: 1.0*
+bigMaze7
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 108	Time Taken: 0.06382203102111816	Nodes Expanded: 509	Average Score: 402.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 108	Time Taken: 0.021576642990112305	Nodes Expanded: 166	Average Score: 402.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 108	Time Taken: 0.06278228759765625	Nodes Expanded: 509	Average Score: 402.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 108	Time Taken: 0.5041372776031494	Nodes Expanded: 108	Average Score: 402.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 108	Time Taken: 2.5136890411376953	Nodes Expanded: 108	Average Score: 402.0	Win Rate: 1.0*
+bigMaze8
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 196	Time Taken: 0.09145426750183105	Nodes Expanded: 645	Average Score: 314.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 196	Time Taken: 0.04382491111755371	Nodes Expanded: 333	Average Score: 314.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 196	Time Taken: 0.08861565589904785	Nodes Expanded: 645	Average Score: 314.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 196	Time Taken: 1.7406182289123535	Nodes Expanded: 196	Average Score: 314.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 196	Time Taken: 8.234333276748657	Nodes Expanded: 196	Average Score: 314.0	Win Rate: 1.0*
+bigMaze9
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 35	Time Taken: 0.010961294174194336	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 35	Time Taken: 0.005980491638183594	Nodes Expanded: 53	Average Score: 475.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 35	Time Taken: 0.009964227676391602	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 35	Time Taken: 0.03280210494995117	Nodes Expanded: 35	Average Score: 475.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 35	Time Taken: 0.1484522819519043	Nodes Expanded: 35	Average Score: 475.0	Win Rate: 1.0*
+bigMaze10
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 148	Time Taken: 0.07453799247741699	Nodes Expanded: 531	Average Score: 362.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 148	Time Taken: 0.04385232925415039	Nodes Expanded: 371	Average Score: 362.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 148	Time Taken: 0.07188940048217773	Nodes Expanded: 531	Average Score: 362.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 148	Time Taken: 0.8670237064361572	Nodes Expanded: 148	Average Score: 362.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 148	Time Taken: 4.36664605140686	Nodes Expanded: 148	Average Score: 362.0	Win Rate: 1.0*
+contoursMaze1
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 9	Time Taken: 0.010879755020141602	Nodes Expanded: 118	Average Score: 501.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 51	Time Taken: 0.012217283248901367	Nodes Expanded: 144	Average Score: 459.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 9	Time Taken: 0.00797271728515625	Nodes Expanded: 118	Average Score: 501.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 9	Time Taken: 0.03858518600463867	Nodes Expanded: 23	Average Score: 501.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 9	Time Taken: 0.09973335266113281	Nodes Expanded: 19	Average Score: 501.0	Win Rate: 1.0*
+contoursMaze2
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 12	Time Taken: 0.018251657485961914	Nodes Expanded: 159	Average Score: 498.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 104	Time Taken: 0.015405893325805664	Nodes Expanded: 205	Average Score: 406.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 12	Time Taken: 0.011959075927734375	Nodes Expanded: 159	Average Score: 498.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 12	Time Taken: 0.05771827697753906	Nodes Expanded: 44	Average Score: 498.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 12	Time Taken: 0.17276835441589355	Nodes Expanded: 31	Average Score: 498.0	Win Rate: 1.0*
+contoursMaze3
+*Function: bfs,prob=FoodSearchProblem	Path Cost: 11	Time Taken: 0.010962486267089844	Nodes Expanded: 153	Average Score: 499.0	Win Rate: 1.0*
+*Function: dfs,prob=FoodSearchProblem	Path Cost: 69	Time Taken: 0.003987789154052734	Nodes Expanded: 69	Average Score: 441.0	Win Rate: 1.0*
+*Function: ucs,prob=FoodSearchProblem	Path Cost: 11	Time Taken: 0.015787363052368164	Nodes Expanded: 153	Average Score: 499.0	Win Rate: 1.0*
+*Function: astar,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 11	Time Taken: 0.05478549003601074	Nodes Expanded: 39	Average Score: 499.0	Win Rate: 1.0*
+*Function: bi,prob=FoodSearchProblem,heuristic=foodHeuristic	Path Cost: 11	Time Taken: 0.12035989761352539	Nodes Expanded: 23	Average Score: 499.0	Win Rate: 1.0*

@@ -223,7 +223,7 @@ def bidirection(problem,heuristic):
 	from searchAgents import FoodSearchProblem,CornersProblem
 	from searchAgents import foodHeuristic
 
-	heuristic=foodHeuristic
+	#heuristic=foodHeuristic
 
 	q1 = util.PriorityQueue()
 	temp_q1 = []
@@ -241,10 +241,21 @@ def bidirection(problem,heuristic):
 	else:
 		endnode = problem.goal
 
-	q1.push((startnode,[],0),0)
-	q2.push((endnode, [],0),0)
+	q1.push((startnode,[],0),0+heuristic(startnode,problem))
+	q2.push((endnode, [],0),0+heuristic(endnode,problem,back=True))
 	while q1.isEmpty() is not True and q2.isEmpty() is not True:
-		if q1.isEmpty() is not True:
+
+
+		forward_min_priority = q1.pop()
+		backward_min_priority = q2.pop()
+
+		cost_forward = forward_min_priority[2]
+		cost_backward = backward_min_priority[2]
+
+		q1.push(forward_min_priority,cost_forward+heuristic(forward_min_priority[0],problem))
+		q2.push(backward_min_priority,cost_backward+heuristic(backward_min_priority[0],problem,back=True))
+
+		if cost_forward < cost_backward:
 			currentnode, direction,cost = q1.pop()
 			if currentnode not in explorednode1:
 				explorednode1.add(currentnode)
@@ -256,9 +267,9 @@ def bidirection(problem,heuristic):
 							solution = direction + ulta(direc)
 							return solution
 				for(successor, action, stepCost) in problem.getSuccessors(currentnode):
-					q1.push((successor, direction + [action],cost),cost+stepCost+heuristic(successor,problem))
+					q1.push((successor, direction + [action],cost+stepCost),max(cost+stepCost+heuristic(successor,problem),2*(cost+stepCost)))
 					temp_q1.append(successor)
-		if q2.isEmpty() is not True:
+		else:
 			currentnode, direction,cost = q2.pop()
 			if currentnode not in explorednode2:
 				explorednode2.add(currentnode)
@@ -270,8 +281,9 @@ def bidirection(problem,heuristic):
 							solution = direc + ulta(direction)
 							return solution
 				for(successor, action, stepCost) in problem.getSuccessors(currentnode):
-					q2.push((successor, direction + [action],cost),cost+stepCost+heuristic(successor,problem,back=True))
+					q2.push((successor, direction + [action],cost+stepCost),max(cost+stepCost+heuristic(successor,problem,back=True),2*(cost+stepCost)))
 					temp_q2.append(successor)
+
 					
 def ulta(direction):
 	'''

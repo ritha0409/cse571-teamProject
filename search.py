@@ -92,10 +92,12 @@ def depthFirstSearch(problem):
 	pacmanFringe = Stack()
 	visitedNodes = []
 	path = []
+	vsn_disp = []
 	
 	startState = problem.getStartState()
 	
 	if problem.isGoalState(startState):
+		problem.display(vsn_disp)
 		return []
 	
 	pacmanFringe.push((startState,visitedNodes,path))
@@ -103,7 +105,9 @@ def depthFirstSearch(problem):
 	while not pacmanFringe.isEmpty():
 		currentState, visitedNodes, path = pacmanFringe.pop()
 		visitedNodes.append(currentState)
+		vsn_disp.append(currentState[0])
 		if problem.isGoalState(currentState):
+			problem.display(vsn_disp)
 			return path
 		for nextState in problem.getSuccessors(currentState):
 			if nextState[0] not in visitedNodes:
@@ -120,6 +124,7 @@ def breadthFirstSearch(problem):
 	queue = Queue()
 	
 	visitedNodes = []
+	vsn_disp = []
 	path = []
 	
 	startState = problem.getStartState()
@@ -135,8 +140,10 @@ def breadthFirstSearch(problem):
 		
 		positionState, path = queue.pop()
 		visitedNodes.append(positionState)
+		vsn_disp.append(positionState[0])
 		
 		if problem.isGoalState(positionState):
+			problem.display(vsn_disp)
 			return path
 			
 		nextState = problem.getSuccessors(positionState)
@@ -155,6 +162,7 @@ def uniformCostSearch(problem):
 	
 	visitedNodes=[]
 	path=[]
+	vsn_disp = []
 	
 	startState=problem.getStartState()
 	startCost= len(path)
@@ -168,7 +176,9 @@ def uniformCostSearch(problem):
 		currentCost, currentState, visitedNodes, path = pacmanFringe.pop()
 		if currentState not in visitedNodes:
 			visitedNodes.append(currentState)
+			vsn_disp.append(currentState[0])
 			if problem.isGoalState(currentState):
+				problem.display(vsn_disp)
 				return path
 			for nextState in problem.getSuccessors(currentState):
 				if nextState[0] not in visitedNodes:
@@ -176,7 +186,7 @@ def uniformCostSearch(problem):
 					nextCost= currentCost + nextState[2]
 					pacmanFringe.push((nextCost,nextState[0],visitedNodes,currentpath),nextCost)
 
-def nullHeuristic(state, problem=None):
+def nullHeuristic(state, problem=None,back=False):
 	"""
 	A heuristic function estimates the cost from the current state to the nearest
 	goal in the provided SearchProblem.  This heuristic is trivial.
@@ -189,6 +199,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
 	pacmanFringe=util.PriorityQueue()
 	
 	visitedNodes=[]
+	vsn_disp = []
 	path=[]
 	
 	startState=problem.getStartState()
@@ -208,7 +219,9 @@ def aStarSearch(problem, heuristic=nullHeuristic):
 		
 		if currentState not in visitedNodes:
 			visitedNodes.append(currentState)
+			vsn_disp.append(currentState[0])
 			if problem.isGoalState(currentState):
+				problem.display(vsn_disp)
 				return path
 			for nextState in problem.getSuccessors(currentState):
 				if nextState[0] not in visitedNodes:
@@ -223,8 +236,9 @@ def bidirection(problem,heuristic):
 	from searchAgents import FoodSearchProblem,CornersProblem
 	from searchAgents import foodHeuristic
 
-	#heuristic=foodHeuristic
+	# heuristic=nullHeuristic
 
+	visitedNodes = []
 	q1 = util.PriorityQueue()
 	temp_q1 = []
 	q2 = util.PriorityQueue()
@@ -234,10 +248,13 @@ def bidirection(problem,heuristic):
 	startnode = problem.getStartState()
 	# endnode = problem.goal
 
-	if type(problem) == FoodSearchProblem:# or type(problem) == CornersProblem:
+	if type(problem) == FoodSearchProblem:
 		for pair in (problem.start[1].asList()):
 			a,b = pair
 			endnode = ((a,b),startnode[1])
+	elif type(problem) == CornersProblem:
+		endnode = (problem.corners[3],problem.corners)
+		print(endnode)
 	else:
 		endnode = problem.goal
 
@@ -249,39 +266,46 @@ def bidirection(problem,heuristic):
 		forward_min_priority = q1.pop()
 		backward_min_priority = q2.pop()
 
-		cost_forward = forward_min_priority[2]
-		cost_backward = backward_min_priority[2]
+		cost_forward = max(forward_min_priority[2]+heuristic(forward_min_priority[0],problem),2*forward_min_priority[2])
+		cost_backward = max(backward_min_priority[2]+heuristic(backward_min_priority[0],problem,back=True),2*backward_min_priority[2])
 
-		q1.push(forward_min_priority,cost_forward+heuristic(forward_min_priority[0],problem))
-		q2.push(backward_min_priority,cost_backward+heuristic(backward_min_priority[0],problem,back=True))
+		q1.push(forward_min_priority,cost_forward)
+		q2.push(backward_min_priority,cost_backward)
 
 		if cost_forward < cost_backward:
 			currentnode, direction,cost = q1.pop()
+			# print(currentnode,"2")
 			if currentnode not in explorednode1:
 				explorednode1.add(currentnode)
+				visitedNodes.append(currentnode[0])
 				if problem.isGoalState(currentnode) or (currentnode in temp_q2):
 					while q2.isEmpty() == False:
 						node, direc,cost = q2.pop()
 						if node == currentnode:
 							direc.reverse()
 							solution = direction + ulta(direc)
+							problem.display(visitedNodes)
 							return solution
 				for(successor, action, stepCost) in problem.getSuccessors(currentnode):
 					q1.push((successor, direction + [action],cost+stepCost),max(cost+stepCost+heuristic(successor,problem),2*(cost+stepCost)))
+					# q1.push((successor, direction + [action],cost+stepCost),cost+stepCost+heuristic(successor,problem))
 					temp_q1.append(successor)
 		else:
 			currentnode, direction,cost = q2.pop()
 			if currentnode not in explorednode2:
 				explorednode2.add(currentnode)
+				visitedNodes.append(currentnode[0])
 				if currentnode in temp_q1:
 					while q1.isEmpty() == False:
 						node, direc,cost = q1.pop()
 						if node == currentnode:
 							direction.reverse()
 							solution = direc + ulta(direction)
+							problem.display(visitedNodes)
 							return solution
 				for(successor, action, stepCost) in problem.getSuccessors(currentnode):
 					q2.push((successor, direction + [action],cost+stepCost),max(cost+stepCost+heuristic(successor,problem,back=True),2*(cost+stepCost)))
+					# q2.push((successor, direction + [action],cost+stepCost),cost+stepCost+heuristic(successor,problem,back=True))
 					temp_q2.append(successor)
 
 					

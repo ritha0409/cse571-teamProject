@@ -3,19 +3,24 @@ import csv
 from pacman import readCommand, runGames
 
 def generateCommands():
-	layouts = ["mediumMaze","bigMaze","contoursMaze","openMaze","smallMaze","tinyMaze"]#,["tinyCorners","mediumCorners","bigCorners"]
-	layouts = layouts + [ f"bigMaze{i}" for i in range(1,11)]
-	layouts = layouts + [f"contoursMaze{i}" for i in range(1,4)]
+	layouts = ["mediumMaze","bigMaze"]#,"contoursMaze","openMaze","smallMaze","tinyMaze"]#,["tinyCorners","mediumCorners","bigCorners"]
+	layouts = [ f"bigMaze{i}" for i in range(1,11)]
+	# layouts = layouts + [f"contoursMaze{i}" for i in range(1,4)]
+	# layouts = layouts + [f"openMaze{i}" for i in range(1,6)]
+	# layouts = ["bigMaze5"]
+
+	# layouts = ["tinyCorners","mediumCorners","bigCorners"]
+
 	function_types = ["bfs","dfs","ucs","astar","bi"]
 
 	commands = []
 	for l in layouts:
 		for ft in function_types:
 			if (ft == "astar" or ft == "bi") and "Corners" in l:
-				command = f"-l {l} -p SearchAgent -a fn={ft},prob=CornersProblem,heuristic=cornersHeuristic -q"
+				command = f"-l {l} -p SearchAgent -a fn={ft},prob=CornersProblem,heuristic=nullHeuristic -q"
 				commands.append(command.split(" "))
 			elif ft == "astar" or ft == "bi":
-				command = f"-l {l} -p SearchAgent -a fn={ft},prob=FoodSearchProblem,heuristic=foodHeuristic -q"    #foodHeuristic      manhattanHeuristic
+				command = f"-l {l} -p SearchAgent -a fn={ft},prob=FoodSearchProblem,heuristic=manhattanHeuristic -q"    #foodHeuristic      manhattanHeuristic   	#PositionSearchProblem		#FoodSearchProblem
 				commands.append(command.split(" "))
 			elif not "Corners" in l:
 				command = f"-l {l} -p SearchAgent -a fn={ft},prob=FoodSearchProblem -q"

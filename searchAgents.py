@@ -188,6 +188,10 @@ class PositionSearchProblem(search.SearchProblem):
 					__main__._display.drawExpandedCells(self._visitedlist) #@UndefinedVariable
 
 		return isGoal
+###########################################################################################################################################
+
+	def display(self,thing):
+		a=thing
 
 	def getSuccessors(self, state):
 		"""
@@ -479,6 +483,15 @@ class FoodSearchProblem:
 
 	def isGoalState(self, state):
 		return state[1].count() == 0
+
+
+	def display(self, visited):
+
+		# For display purposes only
+		import __main__
+		if '_display' in dir(__main__):
+			if 'drawExpandedCells' in dir(__main__._display): #@UndefinedVariable
+				__main__._display.drawExpandedCells(visited) #@UndefinedVariable
 
 	def getSuccessors(self, state):
 		"Returns successor states, the actions they require, and a cost of 1."

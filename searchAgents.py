@@ -499,12 +499,7 @@ class SingleFoodSearchProblem:
         return self.start
 
     def display(self,thing,yes=False):
-        if yes:
-            # For display purposes only
-            import __main__
-            if '_display' in dir(__main__):
-                if 'drawExpandedCells' in dir(__main__._display): #@UndefinedVariable
-                    __main__._display.drawExpandedCells(thing) #@UndefinedVariable
+        a=thing
         
 
     def isGoalState(self, state):

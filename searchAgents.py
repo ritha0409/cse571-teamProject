@@ -444,11 +444,14 @@ def cornersHeuristic(state, problem, info={},back=False):
         if next_targets == []:
             return 0
 
-        furthest_distance = 10000000
+        # furthest_distance = 10000000
+        furthest_distance = 0
         for corner in next_targets:
-            for corner2 in next_targets:
-                if abs(corner2[0]-corner[0]) + abs(corner2[1]-corner[1]) < furthest_distance and not corner == corner2:
-                    furthest_distance = abs(corner2[0]-corner[0]) + abs(corner2[1]-corner[1]) 
+            if abs(pos[0]-corner[0]) + abs(pos[1]-corner[1]) > furthest_distance:
+                furthest_distance = abs(pos[0]-corner[0]) + abs(pos[1]-corner[1])
+            # for corner2 in next_targets:
+            #     if abs(corner2[0]-corner[0]) + abs(corner2[1]-corner[1]) < furthest_distance and not corner == corner2:
+            #         furthest_distance = abs(corner2[0]-corner[0]) + abs(corner2[1]-corner[1]) 
 
         return furthest_distance
 

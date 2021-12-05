@@ -174,32 +174,20 @@ class PriorityQueue:
       in quick retrieval of the lowest-priority item in the queue. This
       data structure allows O(1) access to the lowest-priority item.
     """
-    def __init__(self):
+    def  __init__(self):
         self.heap = []
         self.count = 0
-
-    def has(self,item):
-        return item in self.heap
-
-    def peek(self):
-        if len(self.heap) == 0:
-            return None
-        else:
-            _,_,item = self.heap[0]
-            return item
-
-    def remove(self, element):
-        """Need to pop element by position for Bi-Directional Search"""
-        if element in self.heap:
-            self.heap.remove(element)
+        self.size = 0
 
     def push(self, item, priority):
         entry = (priority, self.count, item)
         heapq.heappush(self.heap, entry)
         self.count += 1
+        self.size +=1
 
     def pop(self):
         (_, _, item) = heapq.heappop(self.heap)
+        self.size-=1
         return item
 
     def isEmpty(self):
@@ -684,5 +672,4 @@ def unmutePrint():
 
     sys.stdout = _ORIGINAL_STDOUT
     #sys.stderr = _ORIGINAL_STDERR
-
 

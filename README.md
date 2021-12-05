@@ -1,4 +1,5 @@
 Bases Mazes = mediumMaze, bigMaze, contoursMaze, openMaze, smallMaze, tinyMaze
+
 New Mazes = bigMaze1, bigMaze2, bigMaze3, bigMaze4, bigMaze5, bigMaze6, bigMaze7, bigMaze8, bigMaze9, bigMaze10, contoursMaze1, contoursMaze2, contoursMaze3
 
 The new mazes have the same layout as the base mazes they are named after, but have different food positions, pacman positions or both.

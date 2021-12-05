@@ -6,6 +6,7 @@ The new mazes have the same layout as the base mazes they are named after, but h
 
 
 #######################################
+
 For using the bidirectional search on a base maze use the command:
 python pacman.py -l bigMaze -p SearchAgent -a fn=bi,heuristic=manhattanHeuristic -z 0.5
 
@@ -13,6 +14,7 @@ This will visually show the expanded nodes and the path the pacman takes.
 
 
 #######################################
+
 For using the bidirectional search on a new maze use the command:
 python pacman.py -l bigMaze5 -p SearchAgent -a fn=bi,heuristic=manhattanHeuristicSingle,prob=SingleFoodSearchProblem -z 0.5
 
@@ -24,6 +26,7 @@ The nodes expanded are not shown here, but the path is still shown.
 
 
 #######################################
+
 For aquiring the TestingOutput.txt and TestingOutput.csv, run the command:
 python run_different_environments.py
 

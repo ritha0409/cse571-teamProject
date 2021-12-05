@@ -189,7 +189,6 @@ class PriorityQueue:
             return item
 
     def remove(self, element):
-        """Need to pop element by position for Bi-Directional Search"""
         if element in self.heap:
             self.heap.remove(element)
 

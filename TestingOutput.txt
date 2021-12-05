@@ -1,123 +1,123 @@
 mediumMaze
-*Function: bfs,prob=PositionSearchProblem	Path Cost: 68	Time Taken: 0.0030672550201416016	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
-*Function: dfs,prob=PositionSearchProblem	Path Cost: 130	Time Taken: 0.000997781753540039	Nodes Expanded: 146	Average Score: 380.0	Win Rate: 1.0*
-*Function: ucs,prob=PositionSearchProblem	Path Cost: 68	Time Taken: 0.0029637813568115234	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
-*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 68	Time Taken: 0.002238035202026367	Nodes Expanded: 221	Average Score: 442.0	Win Rate: 1.0*
-*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 68	Time Taken: 0.0010635852813720703	Nodes Expanded: 184	Average Score: 442.0	Win Rate: 1.0*
+*Function: bfs,prob=PositionSearchProblem	Path Cost: 68	Time Taken: 0.001993417739868164	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
+*Function: dfs,prob=PositionSearchProblem	Path Cost: 130	Time Taken: 0.000995635986328125	Nodes Expanded: 146	Average Score: 380.0	Win Rate: 1.0*
+*Function: ucs,prob=PositionSearchProblem	Path Cost: 68	Time Taken: 0.0030655860900878906	Nodes Expanded: 269	Average Score: 442.0	Win Rate: 1.0*
+*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 68	Time Taken: 0.003043651580810547	Nodes Expanded: 221	Average Score: 442.0	Win Rate: 1.0*
+*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 68	Time Taken: 0.001992464065551758	Nodes Expanded: 184	Average Score: 442.0	Win Rate: 1.0*
 bigMaze
-*Function: bfs,prob=PositionSearchProblem	Path Cost: 210	Time Taken: 0.009805440902709961	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
-*Function: dfs,prob=PositionSearchProblem	Path Cost: 210	Time Taken: 0.004983663558959961	Nodes Expanded: 390	Average Score: 300.0	Win Rate: 1.0*
-*Function: ucs,prob=PositionSearchProblem	Path Cost: 210	Time Taken: 0.011519908905029297	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
-*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 210	Time Taken: 0.010105609893798828	Nodes Expanded: 549	Average Score: 300.0	Win Rate: 1.0*
-*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 210	Time Taken: 0.0049533843994140625	Nodes Expanded: 606	Average Score: 300.0	Win Rate: 1.0*
+*Function: bfs,prob=PositionSearchProblem	Path Cost: 210	Time Taken: 0.009568929672241211	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
+*Function: dfs,prob=PositionSearchProblem	Path Cost: 210	Time Taken: 0.005103588104248047	Nodes Expanded: 390	Average Score: 300.0	Win Rate: 1.0*
+*Function: ucs,prob=PositionSearchProblem	Path Cost: 210	Time Taken: 0.013855457305908203	Nodes Expanded: 620	Average Score: 300.0	Win Rate: 1.0*
+*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 210	Time Taken: 0.015946388244628906	Nodes Expanded: 549	Average Score: 300.0	Win Rate: 1.0*
+*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 210	Time Taken: 0.006053924560546875	Nodes Expanded: 606	Average Score: 300.0	Win Rate: 1.0*
 contoursMaze
-*Function: bfs,prob=PositionSearchProblem	Path Cost: 13	Time Taken: 0.0	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
-*Function: dfs,prob=PositionSearchProblem	Path Cost: 85	Time Taken: 0.0	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0*
-*Function: ucs,prob=PositionSearchProblem	Path Cost: 13	Time Taken: 0.0	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
-*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 13	Time Taken: 0.0	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
-*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 13	Time Taken: 0.0	Nodes Expanded: 41	Average Score: 497.0	Win Rate: 1.0*
+*Function: bfs,prob=PositionSearchProblem	Path Cost: 13	Time Taken: 0.003969907760620117	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
+*Function: dfs,prob=PositionSearchProblem	Path Cost: 85	Time Taken: 0.0015621185302734375	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0*
+*Function: ucs,prob=PositionSearchProblem	Path Cost: 13	Time Taken: 0.002910137176513672	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
+*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 13	Time Taken: 0.0009839534759521484	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
+*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 13	Time Taken: 0.001996755599975586	Nodes Expanded: 41	Average Score: 497.0	Win Rate: 1.0*
 openMaze
-*Function: bfs,prob=PositionSearchProblem	Path Cost: 54	Time Taken: 0.01573634147644043	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
-*Function: dfs,prob=PositionSearchProblem	Path Cost: 298	Time Taken: 0.0156252384185791	Nodes Expanded: 806	Average Score: 212.0	Win Rate: 1.0*
-*Function: ucs,prob=PositionSearchProblem	Path Cost: 54	Time Taken: 0.03151869773864746	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
-*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 54	Time Taken: 0.015596866607666016	Nodes Expanded: 535	Average Score: 456.0	Win Rate: 1.0*
-*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 54	Time Taken: 0.0	Nodes Expanded: 449	Average Score: 456.0	Win Rate: 1.0*
+*Function: bfs,prob=PositionSearchProblem	Path Cost: 54	Time Taken: 0.01815509796142578	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
+*Function: dfs,prob=PositionSearchProblem	Path Cost: 298	Time Taken: 0.024193286895751953	Nodes Expanded: 806	Average Score: 212.0	Win Rate: 1.0*
+*Function: ucs,prob=PositionSearchProblem	Path Cost: 54	Time Taken: 0.026007890701293945	Nodes Expanded: 682	Average Score: 456.0	Win Rate: 1.0*
+*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 54	Time Taken: 0.019534826278686523	Nodes Expanded: 535	Average Score: 456.0	Win Rate: 1.0*
+*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 54	Time Taken: 0.004408359527587891	Nodes Expanded: 449	Average Score: 456.0	Win Rate: 1.0*
 smallMaze
-*Function: bfs,prob=PositionSearchProblem	Path Cost: 19	Time Taken: 0.0	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
+*Function: bfs,prob=PositionSearchProblem	Path Cost: 19	Time Taken: 0.0009965896606445312	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
 *Function: dfs,prob=PositionSearchProblem	Path Cost: 49	Time Taken: 0.0	Nodes Expanded: 59	Average Score: 461.0	Win Rate: 1.0*
-*Function: ucs,prob=PositionSearchProblem	Path Cost: 19	Time Taken: 0.0	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
-*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 19	Time Taken: 0.0	Nodes Expanded: 53	Average Score: 491.0	Win Rate: 1.0*
-*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 19	Time Taken: 0.0	Nodes Expanded: 39	Average Score: 491.0	Win Rate: 1.0*
+*Function: ucs,prob=PositionSearchProblem	Path Cost: 19	Time Taken: 0.0009968280792236328	Nodes Expanded: 92	Average Score: 491.0	Win Rate: 1.0*
+*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 19	Time Taken: 0.0009913444519042969	Nodes Expanded: 53	Average Score: 491.0	Win Rate: 1.0*
+*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 19	Time Taken: 0.0009965896606445312	Nodes Expanded: 39	Average Score: 491.0	Win Rate: 1.0*
 tinyMaze
 *Function: bfs,prob=PositionSearchProblem	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0*
 *Function: dfs,prob=PositionSearchProblem	Path Cost: 10	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 500.0	Win Rate: 1.0*
 *Function: ucs,prob=PositionSearchProblem	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 15	Average Score: 502.0	Win Rate: 1.0*
-*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 8	Time Taken: 0.015545845031738281	Nodes Expanded: 14	Average Score: 502.0	Win Rate: 1.0*
-*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 10	Average Score: 502.0	Win Rate: 1.0*
+*Function: astar,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 8	Time Taken: 0.0	Nodes Expanded: 14	Average Score: 502.0	Win Rate: 1.0*
+*Function: bi,prob=PositionSearchProblem,heuristic=manhattanHeuristic	Path Cost: 8	Time Taken: 0.0009927749633789062	Nodes Expanded: 10	Average Score: 502.0	Win Rate: 1.0*
 bigMaze1
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 214	Time Taken: 0.12619328498840332	Nodes Expanded: 633	Average Score: 296.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 214	Time Taken: 0.0635988712310791	Nodes Expanded: 382	Average Score: 296.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 214	Time Taken: 0.12326836585998535	Nodes Expanded: 633	Average Score: 296.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 214	Time Taken: 0.12022256851196289	Nodes Expanded: 604	Average Score: 296.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 214	Time Taken: 0.569495677947998	Nodes Expanded: 602	Average Score: 296.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 214	Time Taken: 0.13204598426818848	Nodes Expanded: 633	Average Score: 296.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 214	Time Taken: 0.07722640037536621	Nodes Expanded: 382	Average Score: 296.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 214	Time Taken: 0.14301776885986328	Nodes Expanded: 633	Average Score: 296.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 214	Time Taken: 0.1339867115020752	Nodes Expanded: 604	Average Score: 296.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 214	Time Taken: 0.6340057849884033	Nodes Expanded: 602	Average Score: 296.0	Win Rate: 1.0*
 bigMaze2
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 194	Time Taken: 0.09848833084106445	Nodes Expanded: 551	Average Score: 316.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 194	Time Taken: 0.07897162437438965	Nodes Expanded: 434	Average Score: 316.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 194	Time Taken: 0.13987040519714355	Nodes Expanded: 551	Average Score: 316.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 194	Time Taken: 0.11358809471130371	Nodes Expanded: 513	Average Score: 316.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 194	Time Taken: 0.6973192691802979	Nodes Expanded: 620	Average Score: 316.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 194	Time Taken: 0.1169271469116211	Nodes Expanded: 551	Average Score: 316.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 194	Time Taken: 0.0934758186340332	Nodes Expanded: 434	Average Score: 316.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 194	Time Taken: 0.11058378219604492	Nodes Expanded: 551	Average Score: 316.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 194	Time Taken: 0.10689020156860352	Nodes Expanded: 513	Average Score: 316.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 194	Time Taken: 0.6384968757629395	Nodes Expanded: 620	Average Score: 316.0	Win Rate: 1.0*
 bigMaze3
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 26	Time Taken: 0.028856277465820312	Nodes Expanded: 89	Average Score: 484.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 26	Time Taken: 0.20204782485961914	Nodes Expanded: 610	Average Score: 484.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 26	Time Taken: 0.028072357177734375	Nodes Expanded: 89	Average Score: 484.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 26	Time Taken: 0.01587533950805664	Nodes Expanded: 66	Average Score: 484.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 26	Time Taken: 0.07409071922302246	Nodes Expanded: 45	Average Score: 484.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 26	Time Taken: 0.02411627769470215	Nodes Expanded: 89	Average Score: 484.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 26	Time Taken: 0.13069558143615723	Nodes Expanded: 610	Average Score: 484.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 26	Time Taken: 0.01758122444152832	Nodes Expanded: 89	Average Score: 484.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 26	Time Taken: 0.012665271759033203	Nodes Expanded: 66	Average Score: 484.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 26	Time Taken: 0.04599332809448242	Nodes Expanded: 45	Average Score: 484.0	Win Rate: 1.0*
 bigMaze4
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 141	Time Taken: 0.17882251739501953	Nodes Expanded: 517	Average Score: 369.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 141	Time Taken: 0.11803030967712402	Nodes Expanded: 358	Average Score: 369.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 141	Time Taken: 0.20355725288391113	Nodes Expanded: 517	Average Score: 369.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 141	Time Taken: 0.1257174015045166	Nodes Expanded: 488	Average Score: 369.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 141	Time Taken: 0.7344098091125488	Nodes Expanded: 583	Average Score: 369.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 141	Time Taken: 0.1023399829864502	Nodes Expanded: 517	Average Score: 369.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 141	Time Taken: 0.0662543773651123	Nodes Expanded: 358	Average Score: 369.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 141	Time Taken: 0.10245299339294434	Nodes Expanded: 517	Average Score: 369.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 141	Time Taken: 0.1013338565826416	Nodes Expanded: 488	Average Score: 369.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 141	Time Taken: 0.5939633846282959	Nodes Expanded: 583	Average Score: 369.0	Win Rate: 1.0*
 bigMaze5
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 150	Time Taken: 0.11985421180725098	Nodes Expanded: 476	Average Score: 360.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 150	Time Taken: 0.10461926460266113	Nodes Expanded: 421	Average Score: 360.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 150	Time Taken: 0.1340930461883545	Nodes Expanded: 476	Average Score: 360.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 150	Time Taken: 0.1142730712890625	Nodes Expanded: 459	Average Score: 360.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 150	Time Taken: 0.7921304702758789	Nodes Expanded: 637	Average Score: 360.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 150	Time Taken: 0.0900580883026123	Nodes Expanded: 476	Average Score: 360.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 150	Time Taken: 0.08071208000183105	Nodes Expanded: 421	Average Score: 360.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 150	Time Taken: 0.09431672096252441	Nodes Expanded: 476	Average Score: 360.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 150	Time Taken: 0.09572505950927734	Nodes Expanded: 459	Average Score: 360.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 150	Time Taken: 0.6552257537841797	Nodes Expanded: 637	Average Score: 360.0	Win Rate: 1.0*
 bigMaze6
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 20	Time Taken: 0.017157554626464844	Nodes Expanded: 71	Average Score: 490.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 20	Time Taken: 0.0049135684967041016	Nodes Expanded: 26	Average Score: 490.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 20	Time Taken: 0.01358795166015625	Nodes Expanded: 71	Average Score: 490.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 20	Time Taken: 0.008077859878540039	Nodes Expanded: 38	Average Score: 490.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 20	Time Taken: 0.03368973731994629	Nodes Expanded: 22	Average Score: 490.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 20	Time Taken: 0.012427806854248047	Nodes Expanded: 71	Average Score: 490.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 20	Time Taken: 0.00519561767578125	Nodes Expanded: 26	Average Score: 490.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 20	Time Taken: 0.014520406723022461	Nodes Expanded: 71	Average Score: 490.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 20	Time Taken: 0.00797271728515625	Nodes Expanded: 38	Average Score: 490.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 20	Time Taken: 0.025222301483154297	Nodes Expanded: 22	Average Score: 490.0	Win Rate: 1.0*
 bigMaze7
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 108	Time Taken: 0.14776301383972168	Nodes Expanded: 509	Average Score: 402.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 108	Time Taken: 0.037802934646606445	Nodes Expanded: 166	Average Score: 402.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 108	Time Taken: 0.16779279708862305	Nodes Expanded: 509	Average Score: 402.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 108	Time Taken: 0.14379000663757324	Nodes Expanded: 399	Average Score: 402.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 108	Time Taken: 0.6330490112304688	Nodes Expanded: 502	Average Score: 402.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 108	Time Taken: 0.09426689147949219	Nodes Expanded: 509	Average Score: 402.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 108	Time Taken: 0.031194686889648438	Nodes Expanded: 166	Average Score: 402.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 108	Time Taken: 0.10355210304260254	Nodes Expanded: 509	Average Score: 402.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 108	Time Taken: 0.07621431350708008	Nodes Expanded: 399	Average Score: 402.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 108	Time Taken: 0.477797269821167	Nodes Expanded: 502	Average Score: 402.0	Win Rate: 1.0*
 bigMaze8
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 196	Time Taken: 0.1815035343170166	Nodes Expanded: 645	Average Score: 314.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 196	Time Taken: 0.09090638160705566	Nodes Expanded: 333	Average Score: 314.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 196	Time Taken: 0.24725794792175293	Nodes Expanded: 645	Average Score: 314.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 196	Time Taken: 0.19358587265014648	Nodes Expanded: 618	Average Score: 314.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 196	Time Taken: 0.8000855445861816	Nodes Expanded: 621	Average Score: 314.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 196	Time Taken: 0.1251070499420166	Nodes Expanded: 645	Average Score: 314.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 196	Time Taken: 0.0630497932434082	Nodes Expanded: 333	Average Score: 314.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 196	Time Taken: 0.13055205345153809	Nodes Expanded: 645	Average Score: 314.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 196	Time Taken: 0.12477827072143555	Nodes Expanded: 618	Average Score: 314.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 196	Time Taken: 0.6108267307281494	Nodes Expanded: 621	Average Score: 314.0	Win Rate: 1.0*
 bigMaze9
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 35	Time Taken: 0.016953229904174805	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 35	Time Taken: 0.009968996047973633	Nodes Expanded: 53	Average Score: 475.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 35	Time Taken: 0.022922992706298828	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 35	Time Taken: 0.019015073776245117	Nodes Expanded: 55	Average Score: 475.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 35	Time Taken: 0.10612034797668457	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 35	Time Taken: 0.01791667938232422	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 35	Time Taken: 0.008970260620117188	Nodes Expanded: 53	Average Score: 475.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 35	Time Taken: 0.01694178581237793	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 35	Time Taken: 0.011953592300415039	Nodes Expanded: 55	Average Score: 475.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 35	Time Taken: 0.0886542797088623	Nodes Expanded: 91	Average Score: 475.0	Win Rate: 1.0*
 bigMaze10
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 148	Time Taken: 0.11271500587463379	Nodes Expanded: 531	Average Score: 362.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 148	Time Taken: 0.07965493202209473	Nodes Expanded: 371	Average Score: 362.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 148	Time Taken: 0.1550889015197754	Nodes Expanded: 531	Average Score: 362.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 148	Time Taken: 0.11858749389648438	Nodes Expanded: 491	Average Score: 362.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 148	Time Taken: 0.7053735256195068	Nodes Expanded: 584	Average Score: 362.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 148	Time Taken: 0.10188651084899902	Nodes Expanded: 531	Average Score: 362.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 148	Time Taken: 0.06860613822937012	Nodes Expanded: 371	Average Score: 362.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 148	Time Taken: 0.10783886909484863	Nodes Expanded: 531	Average Score: 362.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 148	Time Taken: 0.10017681121826172	Nodes Expanded: 491	Average Score: 362.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 148	Time Taken: 0.6096341609954834	Nodes Expanded: 584	Average Score: 362.0	Win Rate: 1.0*
 contoursMaze1
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 13	Time Taken: 0.015990495681762695	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 85	Time Taken: 0.002975940704345703	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 13	Time Taken: 0.012883901596069336	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 13	Time Taken: 0.002009868621826172	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 13	Time Taken: 0.011103391647338867	Nodes Expanded: 41	Average Score: 497.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 13	Time Taken: 0.005764007568359375	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 85	Time Taken: 0.002618074417114258	Nodes Expanded: 85	Average Score: 425.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 13	Time Taken: 0.008053779602050781	Nodes Expanded: 170	Average Score: 497.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 13	Time Taken: 0.0019998550415039062	Nodes Expanded: 49	Average Score: 497.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 13	Time Taken: 0.00870966911315918	Nodes Expanded: 41	Average Score: 497.0	Win Rate: 1.0*
 contoursMaze2
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 12	Time Taken: 0.005980014801025391	Nodes Expanded: 159	Average Score: 498.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 104	Time Taken: 0.009151697158813477	Nodes Expanded: 205	Average Score: 406.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 12	Time Taken: 0.014022111892700195	Nodes Expanded: 159	Average Score: 498.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 12	Time Taken: 0.0020220279693603516	Nodes Expanded: 44	Average Score: 498.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 12	Time Taken: 0.005959510803222656	Nodes Expanded: 36	Average Score: 498.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 12	Time Taken: 0.010873794555664062	Nodes Expanded: 159	Average Score: 498.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 104	Time Taken: 0.006977081298828125	Nodes Expanded: 205	Average Score: 406.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 12	Time Taken: 0.005751848220825195	Nodes Expanded: 159	Average Score: 498.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 12	Time Taken: 0.0019216537475585938	Nodes Expanded: 44	Average Score: 498.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 12	Time Taken: 0.006975650787353516	Nodes Expanded: 36	Average Score: 498.0	Win Rate: 1.0*
 contoursMaze3
-*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 11	Time Taken: 0.00499272346496582	Nodes Expanded: 153	Average Score: 499.0	Win Rate: 1.0*
-*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 69	Time Taken: 0.003988981246948242	Nodes Expanded: 69	Average Score: 441.0	Win Rate: 1.0*
-*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 11	Time Taken: 0.008044242858886719	Nodes Expanded: 153	Average Score: 499.0	Win Rate: 1.0*
-*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 11	Time Taken: 0.0009281635284423828	Nodes Expanded: 39	Average Score: 499.0	Win Rate: 1.0*
-*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 11	Time Taken: 0.0059888362884521484	Nodes Expanded: 31	Average Score: 499.0	Win Rate: 1.0*
+*Function: bfs,prob=SingleFoodSearchProblem	Path Cost: 11	Time Taken: 0.006623029708862305	Nodes Expanded: 153	Average Score: 499.0	Win Rate: 1.0*
+*Function: dfs,prob=SingleFoodSearchProblem	Path Cost: 69	Time Taken: 0.0029897689819335938	Nodes Expanded: 69	Average Score: 441.0	Win Rate: 1.0*
+*Function: ucs,prob=SingleFoodSearchProblem	Path Cost: 11	Time Taken: 0.008532047271728516	Nodes Expanded: 153	Average Score: 499.0	Win Rate: 1.0*
+*Function: astar,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 11	Time Taken: 0.0019927024841308594	Nodes Expanded: 39	Average Score: 499.0	Win Rate: 1.0*
+*Function: bi,prob=SingleFoodSearchProblem,heuristic=manhattanHeuristicSingle	Path Cost: 11	Time Taken: 0.006545543670654297	Nodes Expanded: 31	Average Score: 499.0	Win Rate: 1.0*
 tinyCorners
-*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 28	Time Taken: 0.0039365291595458984	Nodes Expanded: 199	Average Score: 512.0	Win Rate: 1.0*
-*Function: bi,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 35	Time Taken: 0.00404810905456543	Nodes Expanded: 275	Average Score: 507.0	Win Rate: 1.0*
+*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 28	Time Taken: 0.004019737243652344	Nodes Expanded: 199	Average Score: 512.0	Win Rate: 1.0*
+*Function: bi,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 35	Time Taken: 0.004613399505615234	Nodes Expanded: 275	Average Score: 507.0	Win Rate: 1.0*
 mediumCorners
-*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 106	Time Taken: 0.07496809959411621	Nodes Expanded: 1136	Average Score: 434.0	Win Rate: 1.0*
-*Function: bi,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 108	Time Taken: 0.026033878326416016	Nodes Expanded: 1115	Average Score: 434.0	Win Rate: 1.0*
+*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 106	Time Taken: 0.06816911697387695	Nodes Expanded: 1136	Average Score: 434.0	Win Rate: 1.0*
+*Function: bi,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 108	Time Taken: 0.019996166229248047	Nodes Expanded: 1115	Average Score: 434.0	Win Rate: 1.0*
 bigCorners
-*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 162	Time Taken: 0.9939777851104736	Nodes Expanded: 4380	Average Score: 378.0	Win Rate: 1.0*
-*Function: bi,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 164	Time Taken: 0.09966683387756348	Nodes Expanded: 3708	Average Score: 378.0	Win Rate: 1.0*
+*Function: astar,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 162	Time Taken: 0.9012699127197266	Nodes Expanded: 4380	Average Score: 378.0	Win Rate: 1.0*
+*Function: bi,prob=CornersProblem,heuristic=cornersHeuristic	Path Cost: 164	Time Taken: 0.07212400436401367	Nodes Expanded: 3708	Average Score: 378.0	Win Rate: 1.0*

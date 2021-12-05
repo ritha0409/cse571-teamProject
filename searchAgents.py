@@ -309,12 +309,9 @@ class CornersProblem(search.SearchProblem):
 
 
     def getStartState(self):
-        """
-        Returns the start state (in your state space, not the full Pacman state
-        space)
-        """
+   
         "*** YOUR CODE HERE ***"
-        return tuple((self.startingPosition, tuple(False for corner in self.corners)))
+        return (self.startingPosition, (False,False,False,False))
 
     def display(self,thing,yes=False):
         if yes:
@@ -344,12 +341,7 @@ class CornersProblem(search.SearchProblem):
         """
         Returns successor states, the actions they require, and a cost of 1.
 
-         As noted in search.py:
-            For a given state, this should return a list of triples, (successor,
-            action, stepCost), where 'successor' is a successor to the current
-            state, 'action' is the action required to get there, and 'stepCost'
-            is the incremental cost of expanding to that successor
-        """
+         """
 
         successors = []
         for action in [Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST]:
@@ -444,14 +436,11 @@ def cornersHeuristic(state, problem, info={},back=False):
         if next_targets == []:
             return 0
 
-        # furthest_distance = 10000000
         furthest_distance = 0
         for corner in next_targets:
             if abs(pos[0]-corner[0]) + abs(pos[1]-corner[1]) > furthest_distance:
                 furthest_distance = abs(pos[0]-corner[0]) + abs(pos[1]-corner[1])
-            # for corner2 in next_targets:
-            #     if abs(corner2[0]-corner[0]) + abs(corner2[1]-corner[1]) < furthest_distance and not corner == corner2:
-            #         furthest_distance = abs(corner2[0]-corner[0]) + abs(corner2[1]-corner[1]) 
+    
 
         return furthest_distance
 
@@ -464,14 +453,7 @@ class AStarCornersAgent(SearchAgent):
         self.searchType = CornersProblem
 
 class SingleFoodSearchProblem:
-    """
-    A search problem associated with finding the a path that collects all of the
-    food (dots) in a Pacman game.
 
-    A search state in this problem is a tuple ( pacmanPosition, foodGrid ) where
-      pacmanPosition: a tuple (x,y) of integers specifying Pacman's position
-      foodGrid:       a Grid (see game.py) of either True or False, specifying remaining food
-    """
 
     def __init__(self, startingGameState):
         self.start = (startingGameState.getPacmanPosition(), startingGameState.getFood())
@@ -509,12 +491,7 @@ class SingleFoodSearchProblem:
         """
         Returns successor states, the actions they require, and a cost of 1.
 
-         As noted in search.py:
-             For a given state, this should return a list of triples,
-         (successor, action, stepCost), where 'successor' is a
-         successor to the current state, 'action' is the action
-         required to get there, and 'stepCost' is the incremental
-         cost of expanding to that successor
+        
         """
 
         successors = []
